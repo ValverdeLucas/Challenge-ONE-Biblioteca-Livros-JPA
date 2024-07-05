@@ -12,7 +12,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ChallengeOneBibliotecaJpaApplication implements CommandLineRunner {
 
     @Autowired
-    private LivrosRepository repositorio;
+    private LivrosRepository repositorioLivro;
+
+    @Autowired
+    private AutoresRepository repositorioAutor;
 
     public static void main(String[] args) {
         SpringApplication.run(ChallengeOneBibliotecaJpaApplication.class, args);
@@ -20,7 +23,7 @@ public class ChallengeOneBibliotecaJpaApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Main main = new Main(repositorio);
+        Main main = new Main(repositorioLivro, repositorioAutor);
         main.exibeMenu();
     }
 }

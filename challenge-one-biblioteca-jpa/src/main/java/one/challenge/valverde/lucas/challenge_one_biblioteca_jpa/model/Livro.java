@@ -2,8 +2,6 @@ package one.challenge.valverde.lucas.challenge_one_biblioteca_jpa.model;
 
 import jakarta.persistence.*;
 
-import java.util.List;
-
 @Entity
 @Table(name = "livros")
 public class Livro {
@@ -13,7 +11,7 @@ public class Livro {
     @Column(unique = true, nullable = false)
     private String titulo;
     private String nomeAutor;
-    private List<String> idiomas;
+    private String idioma;
     private Double numeroDownloads;
 
     public Long getId() {
@@ -30,19 +28,19 @@ public class Livro {
     public Livro() {
     }
 
+    public Livro(DadosLivro dadosLivro) {
+        this.titulo = dadosLivro.resultado().get(0).titulo();
+        this.nomeAutor = dadosLivro.resultado().get(0).autores().get(0).nome();
+        this.idioma = dadosLivro.resultado().get(0).idiomas().get(0);
+        this.numeroDownloads = dadosLivro.resultado().get(0).numeroDownloads();
+    }
+
     public String getNomeAutor() {
         return nomeAutor;
     }
 
     public void setNomeAutor(String nomeAutor) {
         this.nomeAutor = nomeAutor;
-    }
-
-    public Livro(DadosLivro dadosLivro) {
-        this.titulo = dadosLivro.resultado().get(0).titulo();
-        this.nomeAutor = dadosLivro.resultado().get(0).autores().get(0).nome();
-        this.idiomas = dadosLivro.resultado().get(0).idiomas();
-        this.numeroDownloads = dadosLivro.resultado().get(0).numeroDownloads();
     }
 
     public String getTitulo() {
@@ -61,12 +59,12 @@ public class Livro {
         this.autor = autor;
     }
 
-    public List<String> getIdiomas() {
-        return idiomas;
+    public String getIdioma() {
+        return idioma;
     }
 
-    public void setIdiomas(List<String> idiomas) {
-        this.idiomas = idiomas;
+    public void setIdioma(String idioma) {
+        this.idioma = idioma;
     }
 
     public Double getNumeroDownloads() {
@@ -79,10 +77,11 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "***** Informações do Livro *****" +
+        return "\n************ Livro ************" +
                 "\nTítulo: " + titulo +
                 "\nAutor: " + nomeAutor +
-                "\nIdiomas: " + idiomas +
-                "\nNúmero de Downloads: " + numeroDownloads + "\n";
+                "\nIdioma: " + idioma +
+                "\nNúmero de Downloads: " + numeroDownloads +
+                "\n*******************************";
     }
 }

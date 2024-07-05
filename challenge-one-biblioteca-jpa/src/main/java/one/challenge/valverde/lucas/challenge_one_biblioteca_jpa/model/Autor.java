@@ -18,7 +18,7 @@ public class Autor {
     private Integer anoMorte;
 
     @OneToMany(mappedBy = "autor", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<Livro> listaLivros = new ArrayList<>();
+    private List<Livro> livros = new ArrayList<>();
 
     public Autor() {
     }
@@ -30,20 +30,12 @@ public class Autor {
     }
 
     public List<Livro> getLivros() {
-        return listaLivros;
+        return livros;
     }
 
     public void setLivros(Livro livro) {
-        this.listaLivros.add(livro);
+        this.livros.add(livro);
         livro.setAutor(this);
-    }
-
-    public List<Livro> getListaLivros() {
-        return listaLivros;
-    }
-
-    public void setListaLivros(List<Livro> listaLivros) {
-        this.listaLivros = listaLivros;
     }
 
     public Integer getAnoMorte() {
@@ -84,8 +76,7 @@ public class Autor {
                 "\nNome: " + nome +
                 "\nAno de Nascimento: " + anoNascimento +
                 "\nAno de Falecimento: " + anoMorte +
-                "\nLivros: " + listaLivros.stream()
-                .map(l -> l.getTitulo())
-                .collect(Collectors.toList()) + "\n";
+                "\nLivros: " + livros.stream()
+                .map(l -> l.getTitulo()).collect(Collectors.toList()) + "\n";
     }
 }
