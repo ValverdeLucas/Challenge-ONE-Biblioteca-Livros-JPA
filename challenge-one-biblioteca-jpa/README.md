@@ -55,19 +55,19 @@ Links para as documentações:
 
 <h2 align="center" id=screenshots> SCREENSHOTS & VIDEO DE FUNCIONAMENTO </h2>
 
-Menu principal <br />
+<strong>Menu principal</strong> <br />
 ![photo_2024-07-05_12-15-37](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/0ec72894-c8bb-4519-9098-ff533635abb2)
 
-Informações do livro <br />
+<strong>Informações do livro</strong> <br />
 ![photo_2024-07-05_12-15-47](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/3a6bd56d-edae-4216-8e4d-96b2e2492109)
 
-Informações do autor <br />
+<strong>Informações do autor</strong> <br />
 ![photo_2024-07-05_12-15-48](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/c37a6234-3b0e-4447-b85c-eb881bf33094)
 
-Menu idiomas <br />
+<strong>Menu idiomas</strong> <br />
 ![photo_2024-07-05_12-15-53](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/3b839760-8262-4988-97ed-1d85b4b04247)
 
-Estatísticas do banco <br />
+<strong>Estatísticas do banco</strong> <br />
 ![photo_2024-07-05_12-15-54](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/f64c03c6-d15c-47d8-be90-d417c409c0e9)
 
 <h2 align="center" id=autor> AUTOR </h2>
