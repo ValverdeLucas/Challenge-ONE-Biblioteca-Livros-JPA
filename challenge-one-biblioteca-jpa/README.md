@@ -70,6 +70,9 @@ Links para as documentações:
 <strong>Estatísticas do banco</strong> <br />
 ![photo_2024-07-05_12-15-54](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/f64c03c6-d15c-47d8-be90-d417c409c0e9)
 
+<strong>Video de funcionamento da aplicação</strong> <br />
+
+
 <h2 align="center" id=autor> AUTOR </h2>
 <a href="https://www.linkedin.com/in/valverde-lucas/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/143420345?v=4" width="100px;" alt=""/>
@@ -82,4 +85,4 @@ Entre em contato pelos links abaixo!👋🏻
 [![Linkedin Badge](https://img.shields.io/badge/-Lucas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/valverde-lucas/)](https://www.linkedin.com/in/valverde-lucas/)
 [![Gmail Badge](https://img.shields.io/badge/-valverdelucas95@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:valverdelucas95@gmail.com)](mailto:valverdelucas95@gmail.com)
 [![GitHub Badge](https://img.shields.io/badge/-Lucas-black?style=flat-square&logo=GitHub&logoColor=yellow&link=https://www.github.com/ValverdeLucas/)](https://www.github.com/ValverdeLucas/)
-</p>
+
