@@ -86,8 +86,9 @@ public class Main {
                     break;
                 case 0:
                     System.out.println("***** Encerrando aplicação! *****");
+                    break;
                 default:
-                    System.out.println("Opção inválida!");
+                    System.out.println("Opção " + opcao +" inválida!");
             }
 
         }
