@@ -55,6 +55,21 @@ Links para as documentações:
 
 <h2 align="center" id=screenshots> SCREENSHOTS & VIDEO DE FUNCIONAMENTO </h2>
 
+<strong>Menu principal</strong> <br />
+![photo_2024-07-05_12-15-37](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/0ec72894-c8bb-4519-9098-ff533635abb2)
+
+<strong>Informações do livro</strong> <br />
+![photo_2024-07-05_12-15-47](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/3a6bd56d-edae-4216-8e4d-96b2e2492109)
+
+<strong>Informações do autor</strong> <br />
+![photo_2024-07-05_12-15-48](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/c37a6234-3b0e-4447-b85c-eb881bf33094)
+
+<strong>Menu idiomas</strong> <br />
+![photo_2024-07-05_12-15-53](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/3b839760-8262-4988-97ed-1d85b4b04247)
+
+<strong>Estatísticas do banco</strong> <br />
+![photo_2024-07-05_12-15-54](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/f64c03c6-d15c-47d8-be90-d417c409c0e9)
+
 <h2 align="center" id=autor> AUTOR </h2>
 <a href="https://www.linkedin.com/in/valverde-lucas/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/143420345?v=4" width="100px;" alt=""/>
