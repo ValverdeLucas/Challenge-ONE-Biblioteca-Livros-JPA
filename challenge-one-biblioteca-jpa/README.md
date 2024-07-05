@@ -71,7 +71,10 @@ Links para as documentações:
 ![photo_2024-07-05_12-15-54](https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/f64c03c6-d15c-47d8-be90-d417c409c0e9)
 
 <strong>Video de funcionamento da aplicação</strong> <br />
-https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/8ead57da-0744-4d24-bed5-9d7f6823f433
+
+https://github.com/ValverdeLucas/Challenge-ONE-Biblioteca-Livros-JPA/assets/143420345/7b2e02ae-9e06-4f13-8c5a-32c996383dde
+
+
 
 <h2 align="center" id=autor> AUTOR </h2>
 <a href="https://www.linkedin.com/in/valverde-lucas/">
